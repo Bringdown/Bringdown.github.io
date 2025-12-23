@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="max-w-md mx-auto text-center">
-      <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
+      <h2 className="text-3xl font-bold mb-6 mt-6">Contact Me</h2>
       <p className="text-gray-600 mb-4">
         Email:{" "}
         <a

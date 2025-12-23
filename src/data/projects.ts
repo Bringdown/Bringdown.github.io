@@ -7,6 +7,6 @@ export const projects: Project[] = [
     description: "Personal portfolio built with React and TypeScript.",
     tech: ["React", "TypeScript", "Vite"],
     githubUrl: "https://github.com/Bringdown/portfolio",
-    liveUrl: "https://Bringdown.github.io"
-  }
+    liveUrl: "https://Bringdown.github.io",
+  },
 ];

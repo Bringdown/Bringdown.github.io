@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <div className="text-xl font-bold">
           <Link to="/" className="hover:text-blue-600">
-            Logo
+            AB
           </Link>
         </div>
         <div className="flex space-x-6">

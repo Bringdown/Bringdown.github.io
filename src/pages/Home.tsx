@@ -1,25 +1,35 @@
+import { About } from "./About";
+import Contact from "./Contact";
+import Projects from "./Projects";
+
 const Home = () => {
   const name: string = "Anton Bringner";
 
   return (
-    <div className="text-center">
-      <h1 className="text-5xl font-bold mb-4">{name}</h1>
-      <h2 className="text-2xl text-gray-700 mb-6">
-        Software Developer | React & TypeScript
-      </h2>
-      <p className="text-gray-600 mb-8">
-        I build modern, responsive web apps and focus on clean, maintainable
-        code.
-      </p>
-      <div className="flex justify-center gap-4">
-        <a
-          href="/projects"
-          className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
-        >
-          View Projects
-        </a>
-      </div>
-    </div>
+    <>
+      <section id="about" className="py-24">
+        <div>
+          <About />
+        </div>
+      </section>
+
+      <section id="projects" className="py-24">
+        <div className="flex justify-center gap-4">
+          <a
+            href="/projects"
+            className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+          >
+            View Projects
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" className="py-24">
+        <div>
+          <Contact />
+        </div>
+      </section>
+    </>
   );
 };
 

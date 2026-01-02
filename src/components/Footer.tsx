@@ -10,7 +10,7 @@ export const Footer = () => {
   const source = "https://github.com/Bringdown/Bringdown.github.io";
 
   return (
-    <footer className="bg-white pt-12 text-center">
+    <footer className="bg-white pt-12 pb-9 text-center">
       <ul className="flex justify-center gap-6 mb-6">
         <li>
           <a
